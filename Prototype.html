@@ -11,16 +11,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+	background-color: #4A4E6B;
 }
 
 /* Style the header */
 header {
     background-color: #4A4E6B;
-    padding: 30px;
     text-align: center;
     font-size: 35px;
     color: white;
-	border: solid 1px black;
 }
 
 /* Container for flexboxes */
@@ -31,29 +30,39 @@ section {
 
 /* Style the navigation menu */
 nav {
-    -webkit-flex: 1;
+	text-align: center;
+    -webkit-flex: 1;
     -ms-flex: 1;
     flex: 0.5;
+	color: white;
     background: #494E6B;
     padding: 20px;
-	border: solid 1px black;
 }
+
 
 /* Style the list inside the menu */
 nav ul {
+	text-align: center;
     list-style-type: none;
     padding: 0;
 }
 
 /* Style the content */
 article {
+	text-align: center;
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
+	font-size: 25px;
+	color: white;
     background-color: #192231;
     padding: 10px;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+}
 
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
@@ -63,13 +72,27 @@ article {
       flex-direction: column;
     }
 }
+
 </style>
 </head>
 <body>
 
 
 <header>
-  <h2>Cities</h2>
+  <img src="Assets/Logo.png" width="150" height="150" align="absmiddle"/>
+  <p><font size = "5"> <i>Plymouth Employment and Skills Board </font> </i></p>
+    <table width="100%" border="1px" cellpadding="5" bgcolor = "#975F6B" bordercolor = "black">
+    <tbody>
+      <tr>
+        <td width="16.6%"><a href="Home.html" style="color:white">Home</a></td>
+        <td width="16.6%"><a href="Events.html" style="color:white">Events</a></td>
+        <td width="16.6%"><a href="Sectors.html" style="color:white">Sectors</a></td>
+        <td width="16.6%"><a href="Members.html" style="color:white">Members</a></td>
+        <td width="16.6%"><a href="Organisations.html" style="color:white">Organisations</a></td>
+        <td width="16.6%"><a href="Advice.html" style="color:white">Advice</a></td>
+      </tr>
+    </tbody>
+    </table>
 </header>
 
 <section>
@@ -85,13 +108,43 @@ article {
     </ul>
   </nav> </font>
   
+  
   <article>
-	<font color = "white">
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Mission Statement</h1>
+    
+	<p><i>"To engage local employers, articulate labour market
+	<br>needs, scrutinise local education and training provision and
+	<br>inform how best to integrate skills and employment
+	<br>support with the local labour market"</i></p>
+	<br><br>
+	<p>Sectors</p>
+	<table width="50%" border="1px" cellpadding="5" bgcolor = "#975F6B" bordercolor = "black" align = "center">
+    <tbody>
+      <tr>
+        <td width="16.6%"><a href="https://www.google.com/"><img src="Assets/Sector.png" width="75" height="75" align="absmiddle"/></a></td>
+        <td width="16.6%"><a href="https://www.google.com/"><img src="Assets/Sector.png" width="75" height="75" align="absmiddle"/></a></td>
+        <td width="16.6"><a href="https://www.google.com/"><img src="Assets/Sector.png" width="75" height="75" align="absmiddle"/></a></td>
+        <td width="16.6%"><a href="https://www.google.com/"><img src="Assets/Sector.png" width="75" height="75" align="absmiddle"/></a></td>
+        <td width="16.6%"><a href="https://www.google.com/"><img src="Assets/Sector.png" width="75" height="75" align="absmiddle"/></a></td>
+        <td width="16.6%"><a href="https://www.google.com/"><img src="Assets/Sector.png" width="75" height="75" align="absmiddle"/></a></td>
+      </tr>
+    </tbody>
+    </table>
+	<br>
+	<table width="50%" cellpadding="5" align = "center">
+    <tbody>
+      <tr>
+        <td width="16.6%"><a href="https://www.google.com/">Construction</a></td>
+        <td width="16.6%"><a href="https://www.google.com/">Marine</a></td>
+        <td width="16.6"><a href="https://www.google.com/">Digital</a></td>
+        <td width="16.6%"><a href="https://www.google.com/">Hospitality</a></td>
+        <td width="16.6%"><a href="https://www.google.com/">Health</a></td>
+        <td width="16.6%"><a href="https://www.google.com/">LMI</a></td>
+      </tr>
+    </tbody>
+    </table>
 	</font>
+	
   </article>
 </section>
 
