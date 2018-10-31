@@ -3,89 +3,128 @@
 
 #Container {
 	color: #FFFFFF;
-	background-color: #F1070B;
-	margin: 0px;
-	height: 100%;
+	background-color: #192231;
+	position: fixed;
 	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 10;
 }
 #HEADER {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 24px;
-	color: #2dff2a;
-	background-color: black;
-	height: 300px;
+	color: #ffffff;
+	height: 230px;
 	width: auto;
 	text-align: center;
+	margin-top:10px;
 }
-#Para {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 12px;
-	color: #FFFFFF;
-	background-color: #682F0D;
-	margin: auto;
+#Logo{
+	display: block;
+	z-index: 2000;
+	text-align: center;
+	width: auto;
 	height: 50px;
-	width: 55%;
+	margin: auto;
 }
+
 #AboutUs {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 12px;
-	background-color: #000000;
+	font-size: 15px;
+	background-color: #494e6b;
 	text-align: center;
-	width: 23%;
+	width: 15%;
+	height: 30%;
 	clear: left;
 	float: left;
+	border: solid 1px black;
 }
 #EmailUs{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 12px;
-	background-color: #000000;
+	font-size: 15px;
+	background-color: #494e6b;
 	text-align: center;
-	width: 23%;
+	height: 30%;
+	width: 15%;
 	clear: right;
 	float: right;
+	border: solid 1px black;
 }
 #WhatWeDo{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 12px;
-	background-color: #000000;
+	font-size: 15px;
+	background-color: #494e6b;
 	text-align: center;
-	width: 23%;
+	width: 15%;
+	height: 30%;
 	clear: left;
 	float: left;
+	border: solid 1px black;
 }
 #CallUS{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 12px;
-	background-color: #000000;
+	font-size: 15px;
+	background-color: #494e6b;
 	text-align: center;
-	width: 23%;
+	width: 15%;
+	height: 30%;
 	clear: right;
 	float: right;
-}
-#Video {
-	background-color: #CD5052;
-	margin: auto;
-	height: 400px;
-	width: 800px;
-}
-#Sidebar {
-	background-color: #000000;
-	clear: left;
-	float: left;
-	height: auto;
-	width: 50px;
+	border: solid 1px black;
 }
 #Buttons {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-color: white;
-	background-color: #CD5052;
+	background-color: #975f6B;
 	text-align: center;
 	color: #FFFFFF;
 	margin: 0px;
 	height: 60px;
 	width: 100%;
 }
+
+#Para {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	background-color: #975f6B ;
+	margin: auto;
+	height: 50px;
+	width: 60%;
+	font-size: 15px;
+}
+#ParaHolder {
+	background-color: #975f6B ;
+	margin: auto;
+	height: 75px;
+	width: 45%;
+	text-align: center;
+}
+#Sectors {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	background-color: #975f6B ;
+	margin: auto;
+	height: 100px;
+	width: 100%;
+}
+
+#SectorColour {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	background-color: #975f6B ;
+	margin: auto;
+	height: 60px;
+	width: auto;
+	border: 1px solid rgb(164, 164, 164);
+	border-radius: 8px;
+	clear: both;
+}
+
 #CONsole {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 24px;
@@ -94,9 +133,10 @@
 	clear: right;
 	float: left;
 	height: auto;
-	width: 250px;	
+	width: 250px;
+
 }
-#Left Side C {
+#LeftSide{
 	margin: auto;
 	clear: right;
 	float: right;
@@ -117,11 +157,18 @@
 }
 #logo
 {
-	width: 322px;
+	width: 250px;
 	float: left; 
-	height: 299px; 
+	height: 250px; 
 	clear: right;
 }
+
+
+
+
+
+
+
 #TableS {
 	margin: auto;
 	clear: right;
@@ -137,7 +184,19 @@
 	height: auto;
 }
 
-
+#Video {
+	background-color: #CD5052;
+	margin: auto;
+	height: 400px;
+	width: 800px;
+}
+#Sidebar {
+	background-color: #000000;
+	clear: left;
+	float: left;
+	height: auto;
+	width: 50px;
+}
 
 @media (max-width: 600px) {
 	section {
