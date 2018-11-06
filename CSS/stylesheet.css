@@ -16,17 +16,17 @@
 	font-size: 24px;
 	color: #ffffff;
 	background-color: #494e6b;
-	height: 230px;
+	height: 200px;
 	width: auto;
 	text-align: center;
-	margin-top:10px;
+	margin-top:0;
 }
 #Logo{
 	display: block;
 	z-index: 2000;
 	text-align: center;
 	width: auto;
-	height: 50px;
+	height: 0px;
 	margin: auto;
 }
 
@@ -36,7 +36,7 @@
 	background-color: #494e6b;
 	text-align: center;
 	width: 15%;
-	height: 30%;
+	height: 31%;
 	clear: left;
 	float: left;
 	border: solid 1px black;
@@ -46,7 +46,7 @@
 	font-size: 15px;
 	background-color: #494e6b;
 	text-align: center;
-	height: 30%;
+	height: 31%;
 	width: 15%;
 	clear: right;
 	float: right;
@@ -58,7 +58,7 @@
 	background-color: #494e6b;
 	text-align: center;
 	width: 15%;
-	height: 30%;
+	height: 100%;
 	clear: left;
 	float: left;
 	border: solid 1px black;
@@ -69,14 +69,14 @@
 	background-color: #494e6b;
 	text-align: center;
 	width: 15%;
-	height: 30%;
+	height: 100%;
 	clear: right;
 	float: right;
 	border: solid 1px black;
 }
 #Buttons {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 20px;
+	font-size: 28px;
 	font-color: white;
 	background-color: #975f6B;
 	text-align: center;
@@ -85,22 +85,38 @@
 	height: 60px;
 	width: 100%;
 }
-
 #Para {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 15px;
+	font-size: 25px;
 	color: #FFFFFF;
-	background-color: #975f6B ;
+	background-color: #975f6B;
 	margin: auto;
-	height: 50px;
-	width: 60%;
-	font-size: 15px;
+	height: auto;
+	width: auto;
+}
+#AdviceSection {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 25px;
+	background-color: #975f6B;
+	margin-top: -35px;
+	height: 100%;
+	width: auto;
+	text-align: center;
+}
+#MembersSection {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 25px;
+	background-color: #975f6B;
+	margin-top: 0;
+	height: 95.4%;
+	width: auto;
+	text-align: center;
 }
 #ParaHolder {
-	background-color: #975f6B ;
+	background-color: #192231 ;
 	margin: auto;
 	height: 75px;
-	width: 45%;
+	width: 65%;
 	text-align: center;
 }
 #Sectors {
@@ -109,7 +125,7 @@
 	color: #FFFFFF;
 	background-color: #975f6B ;
 	margin: auto;
-	height: 100px;
+	height: auto;
 	width: 100%;
 }
 
@@ -217,4 +233,27 @@
 		top: 18px;
 		left: 10px;
 	}
+}
+
+button {
+    background-color: #975f6B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+	width: 50%;
+}
+
+input { /* Search bar */
+	float: right;
+	background-color: #192231;
+	color: white;
+}
+
+a { /* Hyperlinks */
+	color: white;
+	text-decoration: none;
 }
