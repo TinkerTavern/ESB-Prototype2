@@ -1,259 +1,132 @@
-@charset "utf-8";
-/* CSS Document */
-
-#Container {
-	color: #FFFFFF;
-	background-color: #192231;
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	z-index: 10;
-}
-#HEADER {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 24px;
-	color: #ffffff;
-	background-color: #494e6b;
-	height: 200px;
-	width: auto;
-	text-align: center;
-	margin-top:0;
-}
-#Logo{
-	display: block;
-	z-index: 2000;
-	text-align: center;
-	width: auto;
-	height: 0px;
-	margin: auto;
+* {
+  box-sizing: border-box;
 }
 
-#AboutUs {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 15px;
-	background-color: #494e6b;
-	text-align: center;
-	width: 15%;
-	height: 31%;
-	clear: left;
-	float: left;
-	border: solid 1px black;
-}
-#EmailUs{
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 15px;
-	background-color: #494e6b;
-	text-align: center;
-	height: 31%;
-	width: 15%;
-	clear: right;
-	float: right;
-	border: solid 1px black;
-}
-#WhatWeDo{
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 15px;
-	background-color: #494e6b;
-	text-align: center;
-	width: 15%;
-	height: 100%;
-	clear: left;
-	float: left;
-	border: solid 1px black;
-}
-#CallUS{
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 15px;
-	background-color: #494e6b;
-	text-align: center;
-	width: 15%;
-	height: 100%;
-	clear: right;
-	float: right;
-	border: solid 1px black;
-}
-#Buttons {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 28px;
-	font-color: white;
-	background-color: #975f6B;
-	text-align: center;
-	color: #FFFFFF;
-	margin: 0px;
-	height: 60px;
-	width: 100%;
-}
-#Para {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 25px;
-	color: #FFFFFF;
-	background-color: #975f6B;
-	margin: auto;
-	height: auto;
-	width: auto;
-}
-#AdviceSection {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 25px;
-	background-color: #975f6B;
-	margin-top: -35px;
-	height: 100%;
-	width: auto;
-	text-align: center;
-}
-#MembersSection {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 25px;
-	background-color: #975f6B;
-	margin-top: 0;
-	height: 95.4%;
-	width: auto;
-	text-align: center;
-}
-#ParaHolder {
-	background-color: #192231 ;
-	margin: auto;
-	height: 75px;
-	width: 65%;
-	text-align: center;
-}
-#Sectors {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 15px;
-	color: #FFFFFF;
-	background-color: #975f6B ;
-	margin: auto;
-	height: auto;
-	width: 100%;
+body {
+  margin: 0px;
+  font-family: Arial;
+  padding: 10px;
+  background: #192231;
+  text-align: center;
 }
 
-#SectorColour {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 15px;
-	color: #FFFFFF;
-	background-color: #975f6B ;
-	margin: auto;
-	height: 60px;
-	width: auto;
-	border: 1px solid rgb(164, 164, 164);
-	border-radius: 8px;
-	clear: both;
+/* Header/Blog Title */
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #494E6B;
+  color: white;
 }
 
-#CONsole {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 24px;
-	color: #FFFFFF;
-	background-color: #B00E10;
-	clear: right;
-	float: left;
-	height: auto;
-	width: 250px;
-
-}
-#LeftSide{
-	margin: auto;
-	clear: right;
-	float: right;
-	height: auto;
-	width: auto;
+.header h1 {
+  font-size: 50px;
 }
 
-#Form {
-	margin-left:590px;
-	height: auto;
-	width: 850px;
-	left: 590px;
-	top: auto;
-	right: 590px;
-	bottom: auto;
-	clip: rect(auto,auto,auto,auto);
+/* Style the top navigation bar */
 
-}
-#logo
-{
-	width: 250px;
-	float: left; 
-	height: 250px; 
-	clear: right;
+.navBar {
+  overflow: auto;
+  text-align: center;
+  background-color: #975F6B;
 }
 
+/* Style the topnav links */
 
-
-
-
-
-
-#TableS {
-	margin: auto;
-	clear: right;
-	float: right;
-	height: auto;
-	width: 900px;
-}
-#Paragraph
-{
-	margin: auto;
-	align-content: center;
-	width: 800px;
-	height: auto;
+.navBar a {
+  display: inline-grid;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-#Video {
-	background-color: #CD5052;
-	margin: auto;
-	height: 400px;
-	width: 800px;
-}
-#Sidebar {
-	background-color: #000000;
-	clear: left;
-	float: left;
-	height: auto;
-	width: 50px;
+/* Change color on hover */
+
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-@media (max-width: 600px) {
-	section {
-		-webkit-flex-direction: column;
-		flex-direction: column;
-	}
+/* dsadsadsad */
 
-	.header img {
-		float: left;
-		width: 50px;
-		height: 50px;
-		background: #555;
-	}
-
-	.header h1 {
-		position: relative;
-		top: 18px;
-		left: 10px;
-	}
+.fullcolumn {
+  display: inline-block;
+  width: 100%;
+  color: white;
 }
 
-button {
-    background-color: #975f6B;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-	width: 50%;
+.halfcolumn {
+  display: inline-block;
+  width: 51%;
+  color: white;
 }
 
-input { /* Search bar */
-	float: right;
-	background-color: #192231;
-	color: white;
+.leftcolumn {
+  float: left;
+  width: 50%;
 }
 
-a { /* Hyperlinks */
-	color: white;
-	text-decoration: none;
+.rightcolumn {
+  float: right;
+  width: 50%;
+}
+
+/* Fake image */
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+
+.card {
+  background-color: #975F6B;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  color: white;
+  border: solid 1px black;
+  overflow: auto;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  padding: 1px;
+  text-align: center;
+  background: #975F6B;
+  margin-top: 15px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
